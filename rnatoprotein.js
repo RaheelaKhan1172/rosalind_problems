@@ -69,7 +69,7 @@ function encoder(str) {
   var new_str = str.match(/[A-Z]{1,3}/g).map((d) => CODON[d]);
   return new_str.join('');
 }
-
+//another solution
 function encoder(str) {
   var new_Str = "";
   var k = 3;
